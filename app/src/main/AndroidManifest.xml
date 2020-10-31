@@ -11,6 +11,7 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.ItemDetailsActivity"></activity>
         <activity
             android:name=".ui.ItemsListActivity"
             android:label="Trending Wear" />
@@ -22,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".auth.Login" />
-        <activity android:name=".ui.MainActivity"></activity>
+        <activity android:name=".ui.MainActivity" />
     </application>
 
 </manifest>
