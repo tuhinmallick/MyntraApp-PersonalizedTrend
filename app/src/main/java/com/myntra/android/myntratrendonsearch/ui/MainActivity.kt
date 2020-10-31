@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -17,12 +16,8 @@ class MainActivity : AppCompatActivity() {
         var selectedFragment: Fragment? = null
         when (item.itemId) {
             R.id.nav_home -> selectedFragment = HomeFragment()
-            R.id.nav_doc -> selectedFragment = HomeFragment()
-            R.id.nav_favorites -> {
-                selectedFragment = HomeFragment()
-            }
-            R.id.nav_media -> selectedFragment = HomeFragment()
-            R.id.nav_search -> selectedFragment = HomeFragment()
+            R.id.nav_categories -> selectedFragment = CategoriesFragment()
+            R.id.nav_profile -> selectedFragment = ProfileFragment()
         }
         supportFragmentManager.beginTransaction().replace(R.id.fragment_container,
                 selectedFragment!!).commit()
