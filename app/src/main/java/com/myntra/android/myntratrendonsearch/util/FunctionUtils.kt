@@ -16,10 +16,13 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 class FunctionUtils {
+   fun getRandomNumber(min: Int, max: Int): Int {
+        return (Math.random() * (max - min) + min).toInt()
+    }
 
     fun createDialogBox(
-            context: Context,
-            id: Int
+        context: Context,
+        id: Int
     ): Dialog? {
         val dialog = Dialog(context)
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
@@ -44,7 +47,7 @@ class FunctionUtils {
 
     fun copyToClipboard(str: String, context: Context) {
         val clipboard =
-                context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
+            context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
         val clip = ClipData.newPlainText("Copied Text", str)
         clipboard.setPrimaryClip(clip)
         Toast.makeText(context, "Copied successfully", Toast.LENGTH_SHORT).show()
@@ -69,7 +72,7 @@ class FunctionUtils {
             waIntent.putExtra(Intent.EXTRA_TEXT, text)
         } catch (e: PackageManager.NameNotFoundException) {
             Toast.makeText(context, "WhatsApp not Installed", Toast.LENGTH_SHORT)
-                    .show()
+                .show()
         }
         return Intent.createChooser(waIntent, "Share with")
 
@@ -107,8 +110,10 @@ class FunctionUtils {
     fun getDate(ourDate: String): String? {
 
         val dateFormat: DateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssXX")
-        val date: Date = dateFormat.parse(ourDate) //You will get date object relative to server/client timezone wherever it is parsed
-        val formatter: DateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss") //If you need time just put specific format for time like 'HH:mm:ss'
+        val date: Date =
+            dateFormat.parse(ourDate) //You will get date object relative to server/client timezone wherever it is parsed
+        val formatter: DateFormat =
+            SimpleDateFormat("yyyy-MM-dd HH:mm:ss") //If you need time just put specific format for time like 'HH:mm:ss'
         //f you need time just put specific format for time like 'HH:mm:ss'
         formatter.timeZone = TimeZone.getDefault()
 

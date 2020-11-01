@@ -16,8 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9e40edc-0246-4d73-8b08-077c548f1105" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/prodetail1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/prodetail2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -29,33 +27,43 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MyntraTrendOnSearch.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MyntraTrendOnSearch.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemDetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemDetailsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemInfoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemInfoFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemsListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TrendingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TrendingFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TrendingProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TrendingProduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/auth/VerifyFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/auth/VerifyFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/CategoriesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/main/CategoriesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/main/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/Influencer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/model/Influencer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/InstaPost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/model/InstaPost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemDetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/trending/ItemDetailsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemInfoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/trending/ItemInfoFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemsListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/trending/ItemsListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ItemsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/trending/ItemsListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/main/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/main/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/main/SplashActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TrendingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/trending/TrendingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TrendingPostsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/trending/TrendingPostsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TrendingProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/model/TrendingProduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/TryItemActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/ui/trending/TryItemActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/util/Constant.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/util/Constant.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_item_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_item_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/util/FunctionUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myntra/android/myntratrendonsearch/util/FunctionUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_try_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_try_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login_option.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login_option.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trending.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trending.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/trending_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/trending_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/botton_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/botton_nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RZ8N91E8E9W]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -132,7 +140,7 @@
     <property name="android-custom-view/home/shivamkumard107/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/Toolbar.java_SELECTED" value="Toolbar" />
     <property name="android-custom-view/home/shivamkumard107/.gradle/caches/modules-2/files-2.1/com.airbnb.android/lottie/3.4.0/34b4f88162ae85bcaceeaa65547be69ce9f0b185/lottie-3.4.0-sources.jar!/com/airbnb/lottie/LottieAnimationView.java_SELECTED" value="LottieAnimationView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../temp/android-camerax-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="multi-representation-preview/home/shivamkumard107/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/Toolbar.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/shivamkumard107/.gradle/caches/modules-2/files-2.1/com.airbnb.android/lottie/3.4.0/34b4f88162ae85bcaceeaa65547be69ce9f0b185/lottie-3.4.0-sources.jar!/com/airbnb/lottie/LottieAnimationView.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -142,6 +150,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.myntra.android.myntratrendonsearch.ui.trending" />
+      <recent name="com.myntra.android.myntratrendonsearch.ui.model" />
+      <recent name="com.myntra.android.myntratrendonsearch.ui.main" />
       <recent name="com.myntra.android.myntratrendonsearch.ui" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
@@ -288,10 +299,10 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="627" y="247" width="655" height="626" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1604158805275" />
-    <state x="629" y="273" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603993752776">
+    <state x="629" y="273" width="700" height="801" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1604216283822">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="629" y="273" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1603993752776" />
+    <state x="629" y="273" width="700" height="801" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1604216283822" />
     <state x="540" y="308" width="830" height="505" key="AndroidCreateResourceDirectoryDialog" timestamp="1604194313533">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
@@ -304,49 +315,49 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="747" y="309" width="417" height="509" key="AndroidCreateXmlResourceDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1604194847380" />
-    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1604213891954">
+    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1604217201963">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1604213891954" />
-    <state width="1863" height="203" key="GridCell.Tab.0.bottom" timestamp="1604211208380">
+    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1604217201963" />
+    <state width="1863" height="249" key="GridCell.Tab.0.bottom" timestamp="1604235374807">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state width="1863" height="203" key="GridCell.Tab.0.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1604211208380" />
-    <state width="1863" height="203" key="GridCell.Tab.0.center" timestamp="1604211208379">
+    <state width="1863" height="249" key="GridCell.Tab.0.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1604235374807" />
+    <state width="1863" height="249" key="GridCell.Tab.0.center" timestamp="1604235374807">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state width="1863" height="203" key="GridCell.Tab.0.center/0.34.1920.1046@0.34.1920.1046" timestamp="1604211208379" />
-    <state width="1863" height="203" key="GridCell.Tab.0.left" timestamp="1604211208379">
+    <state width="1863" height="249" key="GridCell.Tab.0.center/0.34.1920.1046@0.34.1920.1046" timestamp="1604235374807" />
+    <state width="1863" height="249" key="GridCell.Tab.0.left" timestamp="1604235374806">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state width="1863" height="203" key="GridCell.Tab.0.left/0.34.1920.1046@0.34.1920.1046" timestamp="1604211208379" />
-    <state width="1863" height="203" key="GridCell.Tab.0.right" timestamp="1604211208380">
+    <state width="1863" height="249" key="GridCell.Tab.0.left/0.34.1920.1046@0.34.1920.1046" timestamp="1604235374806" />
+    <state width="1863" height="249" key="GridCell.Tab.0.right" timestamp="1604235374807">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state width="1863" height="203" key="GridCell.Tab.0.right/0.34.1920.1046@0.34.1920.1046" timestamp="1604211208380" />
+    <state width="1863" height="249" key="GridCell.Tab.0.right/0.34.1920.1046@0.34.1920.1046" timestamp="1604235374807" />
     <state x="323" y="104" width="1273" height="912" key="SettingsEditor" timestamp="1603993181656">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="323" y="104" width="1273" height="912" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1603993181656" />
-    <state x="684" y="324" width="542" height="472" key="chooseDestDirectoryDialog" timestamp="1604202270341">
+    <state x="684" y="324" width="542" height="472" key="chooseDestDirectoryDialog" timestamp="1604217772792">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="684" y="324" width="542" height="472" key="chooseDestDirectoryDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1604202270341" />
-    <state x="581" y="220" width="821" height="674" key="find.popup" timestamp="1604202967125">
+    <state x="684" y="324" width="542" height="472" key="chooseDestDirectoryDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1604217772792" />
+    <state x="581" y="220" width="836" height="674" key="find.popup" timestamp="1604237067551">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="581" y="220" width="821" height="674" key="find.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1604202967125" />
+    <state x="581" y="220" width="836" height="674" key="find.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1604237067551" />
     <state x="743" y="287" width="424" height="547" key="refactoring.ChangeSignatureDialog" timestamp="1604162650390">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="743" y="287" width="424" height="547" key="refactoring.ChangeSignatureDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1604162650390" />
-    <state x="540" y="250" key="run.anything.popup" timestamp="1604210427813">
+    <state x="540" y="250" key="run.anything.popup" timestamp="1604235552791">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="540" y="250" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1604210427813" />
-    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1604209401614">
+    <state x="540" y="250" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1604235552791" />
+    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1604237233321">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1604209401614" />
+    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1604237233321" />
   </component>
 </project>

@@ -20,7 +20,7 @@ import com.google.firebase.auth.PhoneAuthProvider
 import com.google.firebase.auth.PhoneAuthProvider.ForceResendingToken
 import com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks
 import com.myntra.android.myntratrendonsearch.R
-import com.myntra.android.myntratrendonsearch.ui.MainActivity
+import com.myntra.android.myntratrendonsearch.ui.main.MainActivity
 import com.myntra.android.myntratrendonsearch.util.Constants
 import java.util.concurrent.TimeUnit
 
