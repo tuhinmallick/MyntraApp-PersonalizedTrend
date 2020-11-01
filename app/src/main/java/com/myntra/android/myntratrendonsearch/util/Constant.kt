@@ -1,6 +1,7 @@
 package com.myntra.android.myntratrendonsearch.util
 
 import com.myntra.android.myntratrendonsearch.ui.Influencer
+import com.myntra.android.myntratrendonsearch.ui.InstaPost
 import com.myntra.android.myntratrendonsearch.ui.TrendingProduct
 
 object Constants {
@@ -67,7 +68,10 @@ object Constants {
     var trendingWear: List<TrendingProduct> = arrayListOf(
         TrendingProduct(
             "Bandhini Saree From Gujarat", arrayListOf(
-                Influencer("Selena", "https://www.looksgud.in/blog/wp-content/uploads/2017/05/oasis-navy-floral-print-cami-top.jpg"),
+                Influencer(
+                    "Selena",
+                    "https://www.looksgud.in/blog/wp-content/uploads/2017/05/oasis-navy-floral-print-cami-top.jpg"
+                ),
                 Influencer("Tailor", ""),
                 Influencer("Katrina", ""),
                 Influencer("Karina", ""),
@@ -76,7 +80,10 @@ object Constants {
         ),
         TrendingProduct(
             "Benarasi Silk Saree From Uttar Pradesh", arrayListOf(
-                Influencer("Kokila", "https://designerethnicstore.weebly.com/uploads/1/0/7/2/107210107/719459372.jpg"),
+                Influencer(
+                    "Kokila",
+                    "https://designerethnicstore.weebly.com/uploads/1/0/7/2/107210107/719459372.jpg"
+                ),
                 Influencer("Selena", ""),
                 Influencer("Tailor", ""),
                 Influencer("Katrina", ""),
@@ -85,7 +92,10 @@ object Constants {
         ),
         TrendingProduct(
             "Rare Beauty Top", arrayListOf(
-                Influencer("Karina", "https://www.looksgud.in/blog/wp-content/uploads/2017/05/besiva-red-polyester-solid-blouse.jpg"),
+                Influencer(
+                    "Karina",
+                    "https://www.looksgud.in/blog/wp-content/uploads/2017/05/besiva-red-polyester-solid-blouse.jpg"
+                ),
                 Influencer("Selena", ""),
                 Influencer("Tailor", ""),
                 Influencer("Katrina", ""),
@@ -94,7 +104,10 @@ object Constants {
         ),
         TrendingProduct(
             "Tank Top", arrayListOf(
-                Influencer("Karina", "https://www.looksgud.in/blog/wp-content/uploads/2017/05/aeropostale-sea-green-printed-tank-top.jpg"),
+                Influencer(
+                    "Karina",
+                    "https://www.looksgud.in/blog/wp-content/uploads/2017/05/aeropostale-sea-green-printed-tank-top.jpg"
+                ),
                 Influencer("Selena", ""),
                 Influencer("Tailor", ""),
                 Influencer("Katrina", ""),
@@ -103,13 +116,45 @@ object Constants {
         ),
         TrendingProduct(
             "Punjabi Suit", arrayListOf(
-                Influencer("Parinti", "https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg"),
-                Influencer("Tailor", ""),
+                Influencer(
+                    "Parinti",
+                    "https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg"
+                ),
+                Influencer("Tailer", ""),
                 Influencer("Katrina", ""),
                 Influencer("Karina", ""),
                 Influencer("Kokila", "")
             )
         )
+    )
+    val postList1 = arrayListOf<InstaPost>(
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Tailer Swift @ Delhi Concert India", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Kokila Ben @ Rasoda", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Rashi Ben @ Rasode me kaun tha", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Anand Kumar @ Border Security Force Chawla", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Shivam Kumar @ Buyhatke India Pvt. Ltd.", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+    )
+
+    val postList2 = arrayListOf<InstaPost>(
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Tailer Swift @ Delhi Concert India", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Kokila Ben @ Rasoda", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Rashi Ben @ Rasode me kaun tha", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Anand Kumar @ Border Security Force Chawla", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("https://medias.fashionnetwork.com/image/upload/v1/medias/14e548e9a22e164ae16cb5fd97cfa90d2990026.jpg", "Shivam Kumar @ Buyhatke India Pvt. Ltd.", "https://www.instagram.com/tv/CHAIL1VJFMT/?igshid=frw7au8zeaeu", "www.instagram.com"),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
+        InstaPost("", "", "", ""),
     )
 
 }

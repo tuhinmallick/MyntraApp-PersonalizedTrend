@@ -4,10 +4,9 @@
     android:id="@+id/cardView2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="20dp"
-    android:layout_marginTop="10dp"
-    android:layout_marginEnd="20dp"
-    android:layout_marginBottom="20dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginTop="8dp"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
@@ -31,6 +30,71 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tvInflName"
+            app:layout_constraintEnd_toEndOf="@+id/ivInfluencerImage"
+            app:layout_constraintStart_toStartOf="@+id/ivInfluencerImage">
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/dot_selected" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/dot_unselected" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/dot_unselected" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/dot_unselected" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/dot_unselected" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/heart_unselect"
+            app:layout_constraintEnd_toEndOf="@+id/ivInfluencerImage"
+            app:layout_constraintTop_toTopOf="@+id/ivInfluencerImage" />
+
+        <TextView
+            android:id="@+id/tvTrendNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="#1"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@id/ivInfluencerImage"
+            app:layout_constraintTop_toTopOf="@id/ivInfluencerImage" />
 
         <TextView
             android:id="@+id/tvInflName"
@@ -63,11 +127,12 @@
 
         <TextView
             android:id="@+id/productName"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:paddingEnd="10dp"
             android:text="Benarasi Silk Saree From Uttar Pradesh"
             android:textColor="@android:color/black"
-            app:layout_constraintBottom_toBottomOf="@+id/tvQ"
+            app:layout_constraintEnd_toEndOf="@+id/tvInflName"
             app:layout_constraintStart_toEndOf="@+id/tvQ"
             app:layout_constraintTop_toTopOf="@+id/tvQ" />
 
