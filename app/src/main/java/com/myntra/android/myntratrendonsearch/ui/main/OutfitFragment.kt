@@ -30,7 +30,7 @@ class OutfitFragment : Fragment() {
     private fun initRecycler(outfit: Outfit) {
         rvOutfits.visibility = View.VISIBLE
         pbOutfit.visibility = View.GONE
-        rvOutfits.adapter = OutfitAdapter(context!!, outfit)
+//        rvOutfits.adapter = OutfitAdapter(context!!, outfits)
         rvOutfits.layoutManager = LinearLayoutManager(context)
     }
 

@@ -33,7 +33,7 @@ class TrendingFragment(
             else
                 v.rvTrending.adapter = TrendingPostsAdapter(context!!, Constants.postList2)
 
-        }, 10000)
+        }, 100)
 
         return v
     }

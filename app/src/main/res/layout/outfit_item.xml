@@ -2,11 +2,10 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardView2"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
+    android:layout_marginStart="4dp"
     android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
@@ -17,8 +16,10 @@
     app:layout_constraintStart_toStartOf="parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -26,14 +27,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
             android:background="@drawable/ic_rectangle"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="6dp"
             app:cardElevation="3dp"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -44,32 +43,32 @@
 
                 <ImageView
                     android:id="@+id/outfitImg1"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:src="@android:drawable/ic_menu_save"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/outfitImg2"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:src="@android:drawable/ic_menu_save"
                     app:layout_constraintStart_toEndOf="@id/outfitImg1"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/outfitImg3"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:src="@android:drawable/ic_menu_save"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/outfitImg1" />
 
                 <ImageView
                     android:id="@+id/outfitImg4"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:src="@android:drawable/ic_menu_save"
                     app:layout_constraintStart_toEndOf="@id/outfitImg3"
                     app:layout_constraintTop_toBottomOf="@id/outfitImg2" />
@@ -83,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Reebok shoes, Puma Shirt, Polo jeans"
-            android:textSize="18sp"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="@+id/cardView"
             app:layout_constraintStart_toStartOf="@+id/cardView"
             app:layout_constraintTop_toBottomOf="@id/cardView" />
@@ -94,15 +93,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Total:"
+            android:textSize="12dp"
             app:layout_constraintStart_toStartOf="@id/imgTitle"
             app:layout_constraintTop_toBottomOf="@id/imgTitle" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tvPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="5dp"
             android:text="$450"
+            android:textSize="12dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@id/tv"
             app:layout_constraintStart_toEndOf="@id/tv"
@@ -113,18 +114,18 @@
             android:id="@+id/tv2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="8dp"
             android:text="Views:"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@id/imgTitle" />
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="@+id/tv"
+            app:layout_constraintTop_toBottomOf="@+id/tv" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tvViews"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="5dp"
             android:text="260"
+            android:textSize="12dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@id/tv2"
             app:layout_constraintStart_toEndOf="@+id/tv2"

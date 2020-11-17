@@ -5,5 +5,6 @@ class OutfitProduct(
     val name: String,
     val category: String,
     val price: String,
-    val timeSpent: Long
+    val timeSpent: Long,
+    val clicks: Int
 )

@@ -67,7 +67,7 @@ object Constants {
 
     var trendingWear: List<TrendingProduct> = arrayListOf(
         TrendingProduct(
-            "Black Notch Collar Tuxedo Wrap Dress", arrayListOf(
+            "Black Notch Collar Tuxedo Wrap Dress", "", arrayListOf(
                 Influencer(
                     "Alia Bhatt",
                     "https://img.faballey.com//images/banner/e7335e1a-4d1f-4f5a-b80b-3605cad8a6dc.jpg"
@@ -79,7 +79,7 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Red Floral Belted Ruffle Wrap Dress", arrayListOf(
+            "Red Floral Belted Ruffle Wrap Dress", "", arrayListOf(
                 Influencer(
                     "Shraddha Kapoor",
                     "https://img.faballey.com//images/banner/3976b000-73df-4ac4-a557-d636dcf623a7.jpg"
@@ -91,7 +91,7 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Black Polka Ruffled Wrap Skater Dress", arrayListOf(
+            "Black Polka Ruffled Wrap Skater Dress", "", arrayListOf(
                 Influencer(
                     "Sharmin Sehgal",
                     "https://img.faballey.com//images/banner/509e2df8-ec40-4446-a22a-e365a011b270.jpg"
@@ -103,7 +103,7 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Yellow Floral Asymmetric Hem Belted Dress", arrayListOf(
+            "Yellow Floral Asymmetric Hem Belted Dress", "", arrayListOf(
                 Influencer(
                     "Katrina Kaif",
                     "https://img.faballey.com//images/banner/20ed6ac6-b155-4843-81ed-93740911c801.jpg"
@@ -115,7 +115,7 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Black Ruffled Front Playsuit", arrayListOf(
+            "Black Ruffled Front Playsuit", "", arrayListOf(
                 Influencer(
                     "Taylor Swift",
                     "https://img.faballey.com//images/banner/010240b6-212e-487d-9df4-a618b9767adc.jpg"
@@ -130,10 +130,12 @@ object Constants {
 
     var trendingWearMen: List<TrendingProduct> = arrayListOf(
         TrendingProduct(
-            "Olive Green Hooded Sweatshirt", arrayListOf(
+            "Levi's Slim Fit Jeans",
+            "https://firebasestorage.googleapis.com/v0/b/todaystarget.appspot.com/o/levi'sjeans.png?alt=media&token=3509528b-0e94-4414-9ea2-6e8bd0d5841a",
+            arrayListOf(
                 Influencer(
-                    "Shahrukh Khan",
-                    "https://s3-ap-southeast-1.amazonaws.com/seenitcdn/788185f1e1902d1be2.jpg"
+                    "Chris Pine",
+                    "https://i.pinimg.com/564x/f8/6b/23/f86b23d452bdd488347dc8f8823473b2.jpg"
                 ),
                 Influencer("Tailor", ""),
                 Influencer("Katrina", ""),
@@ -142,10 +144,12 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Roadster Men Blue Solid Polo Collar T-shirt", arrayListOf(
+            "FLY HAWK Mens Slim Fit Tapered Flat Front Casual Pants",
+            "https://firebasestorage.googleapis.com/v0/b/todaystarget.appspot.com/o/casual_pants.png?alt=media&token=cfffb80f-0de4-4783-8213-1665d6daadf3",
+            arrayListOf(
                 Influencer(
-                    "Aamir Khan",
-                    "https://s3-ap-southeast-1.amazonaws.com/seenitcdn/608285c5a3fa251a4f.jpg"
+                    "Zac Effron",
+                    "https://i.pinimg.com/564x/d0/ac/9b/d0ac9bad487c1468b866be8ca9ee7385.jpg"
                 ),
                 Influencer("Selena", ""),
                 Influencer("Tailor", ""),
@@ -154,10 +158,12 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Men Grey Melange Athleisure Track Pants", arrayListOf(
+            "Signature by Levi Strauss & Co. Gold Label Men's Slim Straight Fit Jeans",
+            "https://firebasestorage.googleapis.com/v0/b/todaystarget.appspot.com/o/index.webp?alt=media&token=5bde4e35-639a-4b62-9fb6-31206b84ddb9",
+            arrayListOf(
                 Influencer(
-                    "Ranbir Kapoor",
-                    "https://s3-ap-southeast-1.amazonaws.com/seenitcdn/817605f7afcb43cf8b.jpg"
+                    "Chance The Rapper",
+                    "https://i.pinimg.com/564x/f0/cd/24/f0cd24c4597f8f0814770e32bbc0204d.jpg"
                 ),
                 Influencer("Selena", ""),
                 Influencer("Tailor", ""),
@@ -166,10 +172,12 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Black Pinstripe Shirt", arrayListOf(
+            "Hat and Beyond Mens Jogger",
+            "https://images-na.ssl-images-amazon.com/images/I/719KpTK-OxL._AC_UY550_.jpg",
+            arrayListOf(
                 Influencer(
-                    "Virat Kohli",
-                    "https://s3-ap-southeast-1.amazonaws.com/seenitcdn/619515c8df0734c7e0.jpg"
+                    "Tom Holland",
+                    "https://i.pinimg.com/564x/39/d9/34/39d934e2ac7db2ac01f3d0ce9f8a097b.jpg"
                 ),
                 Influencer("Selena", ""),
                 Influencer("Tailor", ""),
@@ -178,7 +186,9 @@ object Constants {
             )
         ),
         TrendingProduct(
-            "Navy Blue Solid Dhoti", arrayListOf(
+            "Navy Blue Solid Dhoti",
+            "https://img0.junaroad.com/uiproducts/16567390/zoom_0-1568116172.jpg",
+            arrayListOf(
                 Influencer(
                     "Ranveer Singh",
                     "https://s3-ap-southeast-1.amazonaws.com/seenitcdn/487125a4e4175564a5.jpg"

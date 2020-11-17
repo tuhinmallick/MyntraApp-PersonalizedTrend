@@ -52,7 +52,7 @@ class ItemInfoFragment(val item: TrendingProduct) : Fragment() {
                 }
             }
         })
-        Glide.with(context!!).load(item.influencerList[0].image).into(v.item_image)
+        Glide.with(context!!).load(item.productImage).into(v.item_image)
         v.title.text = item.productName
         v.price.text = FunctionUtils().getRandomNumber(799, 2000).toString()
         v.addcart.setOnClickListener {
