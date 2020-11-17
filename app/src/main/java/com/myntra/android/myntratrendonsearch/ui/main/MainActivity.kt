@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.nav_home -> selectedFragment = HomeFragment()
                 R.id.nav_categories -> selectedFragment = CategoriesFragment()
+                R.id.nav_outfit -> selectedFragment = OutfitFragment()
                 R.id.nav_profile -> selectedFragment = ProfileFragment()
             }
             supportFragmentManager.beginTransaction().replace(

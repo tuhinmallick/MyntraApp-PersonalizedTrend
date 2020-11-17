@@ -14,6 +14,7 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.main.OutfitActivity"></activity>
         <activity
             android:name=".ui.trending.TryItemActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
@@ -21,7 +22,8 @@
         <activity
             android:name=".ui.trending.ItemsListActivity"
             android:label="Trending Wear" />
-        <activity android:name=".ui.main.SplashActivity"
+        <activity
+            android:name=".ui.main.SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
