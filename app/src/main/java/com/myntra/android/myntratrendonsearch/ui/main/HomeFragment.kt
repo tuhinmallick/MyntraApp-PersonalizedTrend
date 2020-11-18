@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import androidx.appcompat.app.AppCompatActivity
 import com.myntra.android.myntratrendonsearch.R
 
 class HomeFragment : Fragment() {
@@ -20,6 +21,7 @@ class HomeFragment : Fragment() {
         val v = inflater.inflate(R.layout.fragment_home, container, false)
         val mWebView = v.findViewById<View>(R.id.outfitWeb) as WebView
         mWebView.loadUrl("https://www.myntra.com")
+        (activity as AppCompatActivity).supportActionBar?.title = "Myntra"
 
         // Enable Javascript
 

@@ -14,7 +14,9 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.main.OutfitActivity"></activity>
+        <activity
+            android:name=".ui.main.OutfitActivity"
+            android:label="Outfits" />
         <activity
             android:name=".ui.trending.TryItemActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

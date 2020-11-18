@@ -89,7 +89,7 @@ class ItemInfoFragment(val item: TrendingProduct) : Fragment() {
         //set title for alert dialog
         builder.setTitle("Size Predicted")
         //set message for alert dialog
-        builder.setMessage("LARGE size predicted according to your \n1. Collar Size \n2. Chest Size \n3. Waist \n4. Inside Leg \n5. Chest Depth \n6. Current Product Viewing")
+        builder.setMessage("LARGE size predicted according to your \n1. Collar Size \n2. Chest Size \n3. Waist \n4. Inside Leg \n5. Chest Depth")
         builder.setIcon(android.R.drawable.ic_dialog_alert)
         //performing positive action
         builder.setPositiveButton("Ok") { _, _ ->

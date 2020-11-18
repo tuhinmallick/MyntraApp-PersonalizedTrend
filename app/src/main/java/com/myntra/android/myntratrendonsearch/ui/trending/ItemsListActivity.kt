@@ -16,8 +16,10 @@ class ItemsListActivity : AppCompatActivity() {
 
         if (intent.extras?.get("category") == "women") {
             rvInventory.adapter = ItemsListAdapter(this, "women")
-        }else{
-            rvInventory.adapter = ItemsListAdapter(this, "men")
+        } else if (intent.extras?.get("category") == "mentop") {
+            rvInventory.adapter = ItemsListAdapter(this, "mentop")
+        } else if (intent.extras?.get("category") == "menbottom") {
+            rvInventory.adapter = ItemsListAdapter(this, "menbottom")
         }
     }
 

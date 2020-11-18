@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.myntra.android.myntratrendonsearch.R
 import com.myntra.android.myntratrendonsearch.ui.trending.ItemsListActivity
+import kotlinx.android.synthetic.main.fragment_categories.view.*
 
 class CategoriesFragment : Fragment() {
 
@@ -18,16 +19,33 @@ class CategoriesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val v = inflater.inflate(R.layout.fragment_categories, container, false)
+        (activity as AppCompatActivity)?.supportActionBar?.title = "Explore Trend"
         v.findViewById<ImageView>(R.id.women).setOnClickListener {
             val i = Intent(context, ItemsListActivity::class.java)
             i.putExtra("category", "women")
             startActivity(i)
         }
         v.findViewById<ImageView>(R.id.men).setOnClickListener {
+            if (v.clTop.visibility == View.GONE) {
+                v.clTop.visibility = View.VISIBLE
+                v.clBottom.visibility = View.VISIBLE
+            } else {
+                v.clTop.visibility = View.GONE
+                v.clBottom.visibility = View.GONE
+            }
+        }
+        v.clTop.setOnClickListener {
             val i = Intent(context, ItemsListActivity::class.java)
-            i.putExtra("category", "men")
+            i.putExtra("category", "mentop")
             startActivity(i)
         }
+
+        v.clBottom.setOnClickListener {
+            val i = Intent(context, ItemsListActivity::class.java)
+            i.putExtra("category", "menbottom")
+            startActivity(i)
+        }
+
         v.findViewById<ImageView>(R.id.kids).setOnClickListener {
             val i = Intent(context, ItemsListActivity::class.java)
             i.putExtra("category", "kids")

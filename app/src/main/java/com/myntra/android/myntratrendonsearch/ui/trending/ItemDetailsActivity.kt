@@ -39,7 +39,7 @@ class ItemDetailsActivity : AppCompatActivity() {
             supportFragmentManager,
             item,
             this,
-            intent.extras?.get("catDetails")?.toString() ?: "men"
+            intent.extras?.get("catDetails")?.toString() ?: "mentop"
         )
         mViewPager = findViewById<View>(R.id.view_pager) as ViewPager
         mViewPager?.adapter = mSectionsPagerAdapter
